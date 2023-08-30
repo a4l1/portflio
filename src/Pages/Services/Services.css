@@ -1,0 +1,109 @@
+.skills{
+    padding-top: 120px;
+}
+
+.skill-cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.skill-card{
+   
+    width: 400px;
+    height: 241px;
+    margin-top: 137px;
+    background:#212121;
+    margin-left: 32px;
+
+}
+
+.skill-img img{
+    margin-top: 34px;
+    margin-bottom: 29px;
+    margin-left: 50px;
+}
+
+.skill-card h2{
+    margin-left: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #535353;
+}
+
+.card2{
+    border: none;
+    border-bottom: 1px solid var(--green-color);
+}
+
+
+/* skill2 */
+
+.lang-skill{
+    padding-top: 120px;
+}
+
+.percent-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.skill-percent-card{
+    width: 1168px;
+    height: 235px;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-percent{
+    padding: 25px 45px;
+}
+
+.skill-percent h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.skill-percent p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #27AE60;
+}
+
+
+@media only screen and (max-width:600px){
+    .Services{
+        height: 100vh;
+
+    }
+
+    .skills{
+        height: 100vh;
+    }
+
+    .skill-percent-card{
+        display: block;
+        height: 100%;
+    }
+    .skill-card{
+        display: flex;
+    }
+}
+

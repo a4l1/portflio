@@ -1,0 +1,64 @@
+
+
+.App{
+    width: 100vw;
+    height: 110vw;
+    background: #121111;
+}
+
+    
+
+@media only screen and (max-width:1201px){
+    .App{
+        height: 200vw;
+    }
+}
+
+@media only screen and (max-width:1108px){
+    .App{
+        height: 1285px;
+    }
+}
+
+@media only screen and (max-width:895px){
+    .App{
+        height: 1231px;
+    }
+}
+
+
+@media only screen and (max-width:766px){
+    .App{
+        height: 1231px;
+    }
+}
+
+@media only screen and (max-width:745px){
+    .App{
+        width: 745px
+    }
+}
+
+@media only screen and (max-width:600px){
+    .App{
+        height: 400vw;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .App{
+        height: 700vw;
+    }
+}
+
+@media only screen and (max-width:458px){
+    .App{
+        height: 500vw;
+    }
+}
+
+/* @media only screen and (max-width:262px){
+    .App{
+        height: 1000vw;
+    }
+} */
