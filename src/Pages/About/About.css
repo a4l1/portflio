@@ -221,11 +221,11 @@
 
     .hero{
         width: 100%;
-        height: 1005px;
+        height: 1000px;
         text-align: center;
         background-image: url(../../Assets//img/20220930_183853.jpg );
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center ;
         background-size: cover;
 
     }
