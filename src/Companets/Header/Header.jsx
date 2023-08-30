@@ -14,9 +14,9 @@ export const Header = () => {
                 <div className="site-header-nav  nav-togller">
                 <nav className="header-nav">
                     <ul className="header-nav-item">
-                        <li ><NavLink  to="/">About me</NavLink> </li>
-                        <li ><NavLink to="/Services">Services</NavLink></li>
-                        <li><NavLink to="/Contact"> Contact me</NavLink></li>
+                        <li ><NavLink className='navbar-link'  to="/">About me</NavLink> </li>
+                        <li ><NavLink className='navbar-link' to="/Services">Services</NavLink></li>
+                        <li><NavLink className='navbar-link' to="/Contact"> Contact me</NavLink></li>
                     </ul>
                 </nav>
             </div>
