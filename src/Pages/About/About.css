@@ -229,6 +229,18 @@
         background-size: cover;
 
     }
+
+
+    .About{
+
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        background-image: url(../../Assets//img/20220930_183853.jpg );
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: cover;
+    }
     .hero-bg{
         display: none;
     }
